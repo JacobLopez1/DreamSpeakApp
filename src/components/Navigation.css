@@ -1,0 +1,25 @@
+.navigation-bar {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2A3F4C;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px;
+}
+
+.selected {
+    color: #7FA1E8;
+}

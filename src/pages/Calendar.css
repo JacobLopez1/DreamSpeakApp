@@ -1,0 +1,44 @@
+.dates {
+    list-style-type: none;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    opacity: 80%;
+}
+
+.mobile-calendar {
+    padding-top: 93px;
+    background-color: #2F4858;
+}
+
+.month-title {
+    color: #7FA1E8;
+    font-weight: 500 !important;
+    text-align-last: left;
+}
+
+.disabled {
+    color: #fff;
+    opacity: 30% !important;
+}
+
+.mobile-datepicker .month ul.date li  {
+    color: #fff!important;
+    opacity: 80%;
+    margin-bottom: 4px !important;
+}
+
+.mobile-datepicker .month ul.date li span {
+    display: inline-block;
+    vertical-align: top;
+    width: 38px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+    border-radius: 0% !important;
+    background-color: #242424;
+}
+
+.mobile-datepicker .month {
+    width: 80% !important;
+    margin: 0 auto;
+}

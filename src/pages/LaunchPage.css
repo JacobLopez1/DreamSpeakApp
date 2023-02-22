@@ -1,0 +1,11 @@
+.LaunchPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F4858;
+    height: 100vh;
+  }
+  
+  .Logo {
+    width: 200px;
+  }

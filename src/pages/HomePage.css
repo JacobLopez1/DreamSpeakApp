@@ -1,0 +1,100 @@
+.upper {
+    width: 100%;
+    padding: 12px;
+    color: #fff;
+    background-color: #3C4E8C;
+}
+
+.welcome {
+    padding: 12px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.highlights {
+    padding-left: 12px;
+
+}
+
+.highlights-title {
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-title {
+    font-size: 15px;
+    padding: 4px;
+}
+
+.icon-circle > .MuiSvgIcon-root {
+    color: #7FA1E8;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: -10px;
+    top: 10px;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2A3F4C;
+}
+
+.highlights-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-top: 12px;
+    margin-bottom: 8px;
+}
+
+.timeline {
+    background-color: #2F4858;
+    padding: 12px;
+    width: 100%;
+}
+
+.entry-title {
+    color: #7FA1E8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.entry-date {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.entry-image {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.entry-time {
+    font-size: 14px;
+    color: white;
+}
+
+.entry-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    opacity: 80%;
+}

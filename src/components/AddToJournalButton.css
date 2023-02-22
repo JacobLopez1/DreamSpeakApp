@@ -1,0 +1,25 @@
+.add-to-journal-button {
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: #7FA1E8;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 999;
+}
+
+.add-to-journal-button > .MuiSvgIcon-root {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
