@@ -73,7 +73,7 @@ const HomePage = (active) => {
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
                         <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
-                        <TimelineConnector sx={{marginLeft: "4px", marginTop: "20px"}}/>
+                        <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "20px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
                         <span className="entry-title">My First Dream!</span><br /><br />
@@ -86,7 +86,7 @@ const HomePage = (active) => {
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
                         <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
-                        <TimelineConnector sx={{marginLeft: "4px", marginTop: "0px"}}/>
+                        <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
                         <span className="entry-title">My First Dream!</span><br /><br />
@@ -99,7 +99,7 @@ const HomePage = (active) => {
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
                         <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
-                        <TimelineConnector sx={{marginLeft: "4px", marginTop: "0px"}}/>
+                        <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
                         <span className="entry-title">My First Dream!</span><br /><br />
@@ -112,7 +112,7 @@ const HomePage = (active) => {
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
                         <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
-                        <TimelineConnector sx={{marginLeft: "4px", marginTop: "0px"}}/>
+                        <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px", paddingBottom: "60px"}}>
                         <span className="entry-title">My First Dream!</span><br /><br />

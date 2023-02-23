@@ -81,7 +81,7 @@
 .entry-image {
     height: 150px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px / 16px;
     padding-top: 6px;
     padding-bottom: 6px;
 }

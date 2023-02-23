@@ -15,11 +15,13 @@
     align-items: center;
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     padding: 12px;
+    opacity: 70%;
 }
 
 .selected {
     color: #7FA1E8;
+    opacity: 100%;
 }
