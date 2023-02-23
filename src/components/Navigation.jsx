@@ -12,7 +12,7 @@ const Navigation = (selected) => {
             <Link to="/home" className={`nav-link ${selected.selected.active === "home" ? "selected" : ""}`}><HomeIcon />Home</Link >
             <Link to="/calendar" className={`nav-link ${selected.selected.active === "calendar" ? "selected" : ""}`}><CalendarMonthIcon />Calendar</Link >
             <Link to="/guides" className={`nav-link ${selected.selected.active === "guides" ? "selected" : ""}`}><SchoolIcon />Guides</Link >
-            <Link to="/account" className={`nav-link ${selected.selected.active === "account" ? "selected" : ""}`}><AccountCircleIcon />Profile</Link >
+            <Link to="/profile" className={`nav-link ${selected.selected.active === "profile" ? "selected" : ""}`}><AccountCircleIcon />Profile</Link >
         </nav>
     );
 }

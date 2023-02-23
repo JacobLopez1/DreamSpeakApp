@@ -72,7 +72,7 @@ const HomePage = (active) => {
             >
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
-                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
+                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-2px", position: "absolute"}}/>
                         <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "20px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
@@ -85,7 +85,7 @@ const HomePage = (active) => {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
-                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
+                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-2px", position: "absolute"}}/>
                         <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
@@ -98,7 +98,7 @@ const HomePage = (active) => {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
-                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
+                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-2px", position: "absolute"}}/>
                         <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px"}}>
@@ -111,7 +111,7 @@ const HomePage = (active) => {
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator sx={{height: "300px"}} >
-                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-1px", position: "absolute"}}/>
+                        <TimelineDot sx={{bgcolor: "#7FA1E8", top: "-2px", position: "absolute"}}/>
                         <TimelineConnector sx={{marginLeft: "4.5px", marginTop: "0px"}}/>
                     </TimelineSeparator>
                     <TimelineContent sx={{lineHeight: "0.9", paddingRight: "0", paddingLeft: "8px", paddingBottom: "60px"}}>

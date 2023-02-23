@@ -1,9 +1,21 @@
 import React from 'react';
+import AddToJournalButton from '../components/AddToJournalButton';
+import Navigation from '../components/Navigation';
+import SearchBar from '../components/SearchBar';
 
-const Profile = () => {
+const Profile = (active) => {
     return (
         <div>
-            <h1>Profile</h1>
+            <div className="upper" style={{position: "fixed", height: "85px", zIndex: "999", backgroundColor: "transparent"}}>
+                <SearchBar />
+            </div>
+
+            <div className="header">
+                
+            </div>
+
+            <Navigation selected={active}/>
+            <AddToJournalButton />
         </div>
     );
 }
