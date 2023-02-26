@@ -29,7 +29,7 @@
     position: absolute;
     height: 60px;
     width: 60px;
-    opacity: 20%;
+    opacity: 10%;
 }
 
 .badge-num {
@@ -42,7 +42,7 @@
 
 .badge-title {
     font-size: 15px;
-    opacity: 70%;
+    opacity: 60%;
     line-height: 1;
     color: #242424;
 }
