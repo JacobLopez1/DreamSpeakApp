@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
 import Calendar from './pages/Calendar';
-import Guides from './pages/Guides';
 import Profile from './pages/Profile';
+import Stats from './pages/Stats';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/" element={<HomePage active="home"/>} />
           <Route path="/home" element={<HomePage active="home"/>} />
           <Route path="/calendar" element={<Calendar active="calendar"/>} />
-          <Route path="/guides" element={<Guides active="guides"/>} />
+          <Route path="/stats" element={<Stats active="stats"/>} />
           <Route path="/profile" element={<Profile active="profile"/>} />
         </Routes>
       </div>

@@ -8,6 +8,11 @@ import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem
 import SampleImage from '../assets/sunrise.jpg';
 import Navigation from "../components/Navigation";
 import AddToJournalButton from "../components/AddToJournalButton";
+import ThunderstormOutlinedIcon from '@mui/icons-material/ThunderstormOutlined';
+import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
+import FlightOutlinedIcon from '@mui/icons-material/FlightOutlined';
+import MoodIcon from '@mui/icons-material/Mood';
+import CloudOutlinedIcon from '@mui/icons-material/CloudOutlined';
 
 const HomePage = (active) => {
   const [loading, setLoading] = useState(true);
@@ -38,25 +43,25 @@ const HomePage = (active) => {
                   <div className="icon-circle">
                     <WbSunnyOutlinedIcon />
                   </div>
-                  <p className="highlight-title">Today</p>
+                  <p className="highlight-title">2/15</p>
                 </div>
                 <div className="highlight">
                   <div className="icon-circle">
-                    <WbSunnyOutlinedIcon />
+                    <ThunderstormOutlinedIcon />
                   </div>
-                  <p className="highlight-title">Today</p>
+                  <p className="highlight-title">3/14</p>
                 </div>
                 <div className="highlight">
                   <div className="icon-circle">
-                    <WbSunnyOutlinedIcon />
+                    <LightbulbOutlinedIcon />
                   </div>
-                  <p className="highlight-title">Today</p>
+                  <p className="highlight-title">4/24</p>
                 </div>
                 <div className="highlight">
                   <div className="icon-circle">
-                    <WbSunnyOutlinedIcon />
+                    <FlightOutlinedIcon />
                   </div>
-                  <p className="highlight-title">Today</p>
+                  <p className="highlight-title">5/17</p>
                 </div>
               </div>
             </div>
@@ -81,6 +86,16 @@ const HomePage = (active) => {
                         <span className="entry-time">9:45 am</span><br />
                         <img src={SampleImage} alt="Sample" className="entry-image" /><br />
                         <span className="entry-text">I had the most incredible dream last night. I was walking through a field of flowers, and the sun was setting, casting everything...</span>
+                        <div className="entry-ratings">
+                          <div className="rating">
+                            <MoodIcon />
+                            5.5
+                          </div>
+                          <div className="rating">
+                            <CloudOutlinedIcon />
+                            5.5
+                          </div>
+                        </div>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -94,6 +109,16 @@ const HomePage = (active) => {
                         <span className="entry-time">9:45 am</span><br />
                         <img src={SampleImage} alt="Sample" className="entry-image" /><br />
                         <span className="entry-text">I had the most incredible dream last night. I was walking through a field of flowers, and the sun was setting, casting everything...</span>
+                        <div className="entry-ratings">
+                          <div className="rating">
+                            <MoodIcon />
+                            5.5
+                          </div>
+                          <div className="rating">
+                            <CloudOutlinedIcon />
+                            5.5
+                          </div>
+                        </div>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -107,6 +132,16 @@ const HomePage = (active) => {
                         <span className="entry-time">9:45 am</span><br />
                         <img src={SampleImage} alt="Sample" className="entry-image" /><br />
                         <span className="entry-text">I had the most incredible dream last night. I was walking through a field of flowers, and the sun was setting, casting everything...</span>
+                        <div className="entry-ratings">
+                          <div className="rating">
+                            <MoodIcon />
+                            5.5
+                          </div>
+                          <div className="rating">
+                            <CloudOutlinedIcon />
+                            5.5
+                          </div>
+                        </div>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -120,6 +155,16 @@ const HomePage = (active) => {
                         <span className="entry-time">9:45 am</span><br />
                         <img src={SampleImage} alt="Sample" className="entry-image" /><br />
                         <span className="entry-text">I had the most incredible dream last night. I was walking through a field of flowers, and the sun was setting, casting everything...</span>
+                        <div className="entry-ratings">
+                          <div className="rating">
+                            <MoodIcon />
+                            5.5
+                          </div>
+                          <div className="rating">
+                            <CloudOutlinedIcon />
+                            5.5
+                          </div>
+                        </div>
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>

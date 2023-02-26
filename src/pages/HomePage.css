@@ -2,7 +2,7 @@
     width: 100%;
     padding: 12px;
     color: #fff;
-    background-color: #3C4E8C;
+    background-color: #6A89C1;
 }
 
 .welcome {
@@ -34,7 +34,7 @@
 }
 
 .icon-circle > .MuiSvgIcon-root {
-    color: #7FA1E8;
+    color: #FFFFFF;
     height: 40px;
     width: 40px;
     padding: 0;
@@ -97,4 +97,22 @@
     color: white;
     line-height: 1.5;
     opacity: 80%;
+}
+
+.entry-ratings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #7FA1E8;
+    font-weight: bold;
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 14px;
 }
