@@ -3,90 +3,135 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.graph_buttons {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.graph_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 80px;
+  margin: 0 8px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: none;
+  color: #c9d5e9;
+  font-weight: bold;
+  font-size: 12px;
+  /* drop shadow on bottom */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.active {
+  background-color: #7FA1E8;
+}
+
+.active > .MuiSvgIcon-root {
+  color: #f5f5f5 !important;
+}
+
+.graph_button > .MuiSvgIcon-root {
+  margin: 0 8px;
+  height: 40px;
+  width: 40px;
+  color: #7FA1E8;
+}
+
+.graph_week-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   height: 100%;
+  margin-top: 8px;
+  margin-bottom: -24px;
   background-color: #f5f5f5;
-  /* Drop Shadow on top and bottom */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999;
 }
 
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin-bottom: 8px;
+.graph_week-title {
+  font-size: 24px;
 }
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+.graph_week-dates {
+  font-size: 14px;
+  color: #c9d5e9
 }
 
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.graph_time-selection {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.graph_time-button--left {
+  padding: 16px;
+  border-radius: 20px 0 0 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #c9d5e9;
+  border-right: none;
+}
+
+.graph_time-button--right {
+  padding: 16px;
+  border-radius: 0 20px 20px 0;
+  background-color: #f5f5f5;
+  border: 1px solid #c9d5e9;
+  border-left: none;
+}
+
+.graph_time-button--left.active {
   background-color: #7FA1E8;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  color: #f5f5f5;
+  border-color: #7FA1E8;
+  border-right: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+.graph_time-button--right.active {
+  background-color: #7FA1E8;
+  color: #f5f5f5;
+  border-color: #7FA1E8;
+  border-left: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-input:checked + .slider + .switch-text--before {
-    color: #CCC;
+.graph-section-score {
+  margin-top: 12px;
+  margin-bottom: 60px;
+  margin-left: 16px;
 }
 
-input:checked + .slider + .switch-text--before + .switch-text--after {
-    color: #7FA1E8;
+.graph-section-score-title {
+  font-size: 32px;
+  font-weight: bold;
+  vertical-align: bottom;
+  line-height: 0.9;
+  margin-left: 16px;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #7FA1E8;
+.graph-section-score-percent {
+  color: #51c5bd; 
+  vertical-align: bottom;
+  font-size: 12px;
+  margin-left: -4px;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+.graph-section-score-percent > .MuiSvgIcon-root{
+  vertical-align: bottom;
+  height: 16px;
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-.switch-text--before {
-    position: absolute;
-    right: 70px;
-    top: 25%;
-    color: #7FA1E8;
-    font-weight: bold;
-}
-
-.switch-text--after {
-    position: absolute;
-    left: 70px;
-    top: 25%;
-    color: #CCC;
-    font-weight: bold;
+.graph-section-score-message {
+  color: #c9d5e9;
 }

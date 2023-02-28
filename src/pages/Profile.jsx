@@ -2,18 +2,22 @@ import React from 'react';
 import AddToJournalButton from '../components/AddToJournalButton';
 import Navigation from '../components/Navigation';
 import SearchBar from '../components/SearchBar';
-import building from '../assets/building.png';
+import './Profile.css'
+import NoteAltOutlinedIcon from '@mui/icons-material/NoteAltOutlined';
+import LocalFireDepartmentOutlinedIcon from '@mui/icons-material/LocalFireDepartmentOutlined';
+import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 
 const Profile = (active) => {
     return (
-        <div>
-            <div className="upper" style={{position: "fixed", height: "85px", zIndex: "999", backgroundColor: "transparent"}}>
+        <div class>
+            <div className="upper" style={{height: "85px", zIndex: "999", backgroundColor: "transparent", top: "0"}}>
                 <SearchBar />
             </div>
 
-            <div style={{position: "absolute", right: "20px", top: "20%"}}>
-                <img src={building} alt="building" style={{width: "300px", height: "250px"}}/>
-                <h1 style={{textAlign: "center"}}>Building...</h1>
+            <div className="badges">
+                <div className="badge"><NoteAltOutlinedIcon /><span className="badge-num">10</span><span className="badge-title">entries</span></div>
+                <div className="badge"><LocalFireDepartmentOutlinedIcon /><span className="badge-num">10</span><span className="badge-title">streak</span></div>
+                <div className="badge"><ImageOutlinedIcon /><span className="badge-num">10</span><span className="badge-title">sketches</span></div>
             </div>
 
             <Navigation selected={active}/>

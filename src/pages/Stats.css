@@ -1,48 +1,7 @@
 .stats {
     background-color: #6A89C1;
-}
-
-.badges {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.badges > .badge {
-    margin: 0 8px;
-}
-
-.badge {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 12px;
-}
-
-.badge > .MuiSvgIcon-root {
-    position: absolute;
-    height: 60px;
-    width: 60px;
-    opacity: 10%;
-}
-
-.badge-num {
-    font-size: 30px;
-    font-weight: bold;
-    color: #242424;
-    z-index: 999;
-    line-height: 1;
-}
-
-.badge-title {
-    font-size: 15px;
-    opacity: 60%;
-    line-height: 1;
-    color: #242424;
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 100vh;
+    overflow: auto;
 }
