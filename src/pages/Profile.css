@@ -1,3 +1,46 @@
+.profile {
+    background-color: #f5f5f5;
+}
+
+.profile-info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #2A3F4C;
+    margin: 16px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #242424;
+}
+
+.profile-substatus {
+    font-size: 18px;
+    color: #c9d5e9;
+}
+
 .badges {
     width: 100%;
     display: flex;
@@ -5,7 +48,7 @@
 }
 
 .badges > .badge {
-    margin: 0 8px;
+    margin: 12px 8px;
 }
 
 .badge {
@@ -14,7 +57,7 @@
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 100px;
+    height: 60px;
     color: #CCC;
     font-size: 20px;
     font-weight: bold;
@@ -41,4 +84,48 @@
     opacity: 60%;
     line-height: 1;
     color: #242424;
+}
+
+.linechart-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.subchart-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subchart-card--light {
+    width: 320px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.subchart-card--dark {
+    width: 320px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    background-color: #7FA1E8;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    color: white;
+    vertical-align: top;
+}
+
+.subchart-card--dark > .MuiSvgIcon-root {
+    margin-bottom: -4px;
+}
+
+.subchart-card--light > .MuiSvgIcon-root {
+    margin-bottom: -4px;
+    margin-right: 4px;
 }

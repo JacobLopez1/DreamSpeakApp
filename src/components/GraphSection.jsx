@@ -27,7 +27,7 @@ const GraphSection = () => {
     setDisplay(newDisplay);
   };
 
-  const chartData = data.slice(-7); // only show last 6 data points
+  const chartData = data.slice(-7); // only show last 7 data points
   return (
     <div className="graph-section">
       <div className="graph_buttons">
