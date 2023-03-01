@@ -8,7 +8,7 @@ import CloudOutlinedIcon from "@mui/icons-material/CloudOutlined";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import IconButton from "@mui/material/IconButton";
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const GraphSection = () => {
   const [data, setData] = useState([
@@ -54,9 +54,22 @@ const GraphSection = () => {
         </button>
       </div>
 
-      <div className="graph_time-selection">
-        <button className="graph_time-button--left active">Weekly</button>
-        <button className="graph_time-button--right">Monthly</button>
+      <div className="below-button-section">
+        <div className="graph_time-selection">
+          <button className="graph_time-button--left active">Weekly</button>
+          <button className="graph_time-button--right">Monthly</button>
+        </div>
+        <div className="graph-section-score">
+          <span className="graph-section-score-title">8.2</span>
+          <span className="graph-section-score-percent">
+            <ArrowUpwardIcon />
+            12.5%
+          </span>
+          <br />
+          <span className="graph-section-score-message">
+            Your weekly rating
+          </span>
+        </div>
       </div>
 
       <div className="graph_week-selection">
@@ -95,10 +108,6 @@ const GraphSection = () => {
           <Tooltip />
           <Line type="monotone" dataKey={display} stroke="#7FA1E8" />
         </LineChart>
-        <div className="graph-section-score">
-          <span className="graph-section-score-title">8.2</span><span className="graph-section-score-percent"><ArrowUpwardIcon />12.5%</span><br />
-          <span className="graph-section-score-message">Your weekly rating</span>
-        </div>
       </div>
     </div>
   );
