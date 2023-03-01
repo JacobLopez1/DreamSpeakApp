@@ -19,3 +19,7 @@
   font-weight: bold;
   text-align: center;
 }
+
+.SearchBar-button > .MuiSvgIcon-root {
+  color: #fff;
+}
