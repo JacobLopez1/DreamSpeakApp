@@ -29,6 +29,8 @@ Dreamspeak is a smart dream journal app that allows the user to record and view 
 Currently under constructon, it is hosted at:
 https://dream-speak-app.vercel.app/
 
+(Requires Mobile Screen to view appropriately)
+
 Upon completion will be available on the app store
 
 ## Contributing
