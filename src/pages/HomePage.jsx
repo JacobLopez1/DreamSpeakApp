@@ -15,15 +15,7 @@ import MoodIcon from '@mui/icons-material/Mood';
 import CloudOutlinedIcon from '@mui/icons-material/CloudOutlined';
 
 const HomePage = (active) => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const delay = setTimeout(() => {
-      setLoading(false);
-    }, 200);
-
-    return () => clearTimeout(delay);
-  }, []);
+  const [loading, setLoading] = useState(false);
 
   return (
     <>
