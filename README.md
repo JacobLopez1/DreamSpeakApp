@@ -19,8 +19,8 @@ Dreamspeak is a smart dream journal app that allows the user to record and view 
 - React
 - Node.js
 - Firebase
-- JWT & OAuth
-- Natural Language Toolkit (NLTK)
+- JWT & OAuth(for security and Privacy)
+- Whisper API(for NLP)
 - Rechart
 - Material-UI
 
